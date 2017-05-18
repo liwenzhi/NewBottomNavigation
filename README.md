@@ -1,14 +1,22 @@
 #BottomNavigation使用详解
 前几天看到GitHub中比较新的一个底部按钮的样式，看起来时比较受欢迎的，但是里面的代码没有详细介绍，我这里跟大家详细介绍下，并且原本项目中需要高版本运行，适合在Studio运行，我这里是兼容低版本的，适合非Studio中编译，但是也是要android5.0的SDK，并且导入v4和desige包。
+
 GitHub中：
+
 ![1](http://i.imgur.com/AKy8sps.png)
+
 效果：
+
 ![2](http://i.imgur.com/3lDto9U.gif)
+
 我的项目中的程序效果：
+
 ![3](http://i.imgur.com/Nu4m9kq.gif)
+
 我的项目是有两个Activity组成的，第一个Activity使用ViewPager和Fragment联动，当显示第二个碎片时，单击碎片二，可以跳转到整体显示的效果页面。
 其中第一个Activity的代码是比较容易理解和实用的。
 总的效果讲解：
+
 ![4](http://i.imgur.com/9bPeKGy.png)
 
 #讲解和使用：
@@ -150,4 +158,5 @@ public class MyActivity extends FragmentActivity {
 有需要的可以下载我的源码查看，jar包也是在里面的。那些自定义的类和资源文件还是要拷贝的！
 
 #共勉：只要方向是对的，再多困难的路也要走下去。
+
 ![8](http://i.imgur.com/N101KoQ.jpg)
